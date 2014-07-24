@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 22e66419e3ac00846a0db92af31b6fce
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bottom
+    100002: Down
+    100004: DownMouth
+    100006: Head
+    100008: Head_2
+    100010: Joint_3
+    100012: Joint_4
+    100014: Joint_5
+    100016: Joint_6
+    100018: Joint_7
+    100020: Joints
+    100022: Skin
+    100024: UpMouth
+    100026: Worm
+    100028: //RootNode
+    100030: Worm_2
+    400000: Bottom
+    400002: Down
+    400004: DownMouth
+    400006: Head
+    400008: Head_2
+    400010: Joint_3
+    400012: Joint_4
+    400014: Joint_5
+    400016: Joint_6
+    400018: Joint_7
+    400020: Joints
+    400022: Skin
+    400024: UpMouth
+    400026: Worm
+    400028: //RootNode
+    400030: Worm_2
+    4300000: Worm
+    4300002: Worm_2
+    7400000: GetUp
+    7400002: Idle
+    7400004: Attack
+    7400006: GetDown
+    9500000: //RootNode
+    13700000: Worm
+    13700002: Worm_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GetUp
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Down
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Worm
+        weight: 1
+      - path: Worm/Joints
+        weight: 1
+      - path: Worm/Joints/Bottom
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/DownMouth
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/UpMouth
+        weight: 1
+      - path: Worm/Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: C4D Animation Take
+      firstFrame: 60
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Down
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Worm
+        weight: 1
+      - path: Worm/Joints
+        weight: 1
+      - path: Worm/Joints/Bottom
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/DownMouth
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/UpMouth
+        weight: 1
+      - path: Worm/Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: C4D Animation Take
+      firstFrame: 151
+      lastFrame: 231
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .61780113
+        functionName: AttackDammage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 90589414133a3df48899229d480534dd,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Down
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Worm
+        weight: 1
+      - path: Worm/Joints
+        weight: 1
+      - path: Worm/Joints/Bottom
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/DownMouth
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/UpMouth
+        weight: 1
+      - path: Worm/Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: GetDown
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: .100000001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Down
+        weight: 1
+      - path: Head
+        weight: 1
+      - path: Worm
+        weight: 1
+      - path: Worm/Joints
+        weight: 1
+      - path: Worm/Joints/Bottom
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/DownMouth
+        weight: 1
+      - path: Worm/Joints/Bottom/Joint_3/Joint_4/Joint_5/Joint_6/Joint_7/Head_2/UpMouth
+        weight: 1
+      - path: Worm/Skin
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
